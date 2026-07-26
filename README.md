@@ -145,12 +145,7 @@ If you use this code, please cite
 
 # Acknowledgements
 
-This work builds upon previous research in
-
-- recurrent neural networks
-- dendritic computation
-- hippocampal attractor dynamics
-- neonatal EEG forecasting
+The research presented in this article received partial funding from the Polish Ministry of Science and Higher Education assigned to the AGH University of Science and Technology in Krakow. 
 
 ---
 
