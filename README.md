@@ -64,7 +64,7 @@ The simulator progressively increases recurrent excitation in CA3 to generate fo
 Run:
 
 ```bash
-python training/train_hippocampus.py
+python danu_ca3_main.py
 ```
 
 ---
