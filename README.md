@@ -7,7 +7,7 @@
 Implementation accompanying the paper:
 
 > **DANU: The Dendritic Attractor Neuron Unit for Infant Degenerated EEG Prediction**  
-> Alessandro Crimi, Cris Micheli, Max Talanov
+> Alessandro Crimi, Cris Micheli, Max Talanov, Tiziana Currieri, Francesco Prinzi, Salvatore Vitabile
 
 ---
 # Experiments
@@ -23,12 +23,7 @@ Chaotic multivariate time-series prediction on the Lorenz-96 system.
 - Input sequence: 100 time steps
 - Prediction horizon: 10 future steps
 - Loss: Mean Squared Error (MSE)
-
-Run:
-
-```bash
-python training/train_lorenz.py
-```
+ 
 
 ---
 
@@ -46,13 +41,8 @@ Task:
 
 - Window length: 512 samples
 - Predict next EEG sample
-
-Run:
-
-```bash
-python training/train_cork.py
-```
-
+ 
+ 
 ---
 
 ## 3. Synthetic Hippocampal Recordings
@@ -60,12 +50,7 @@ python training/train_cork.py
 Prediction of simulated hippocampal activity generated from a biologically-inspired CA3–CA1 spiking neural network.
 
 The simulator progressively increases recurrent excitation in CA3 to generate four dynamical regimes.
-
-Run:
-
-```bash
-python danu_ca3_main.py
-```
+ 
 
 ---
 
@@ -109,15 +94,7 @@ Main dependencies
 - NEST Simulator (hippocampal experiments only)
 
 ---
-
-# Reproducing the Paper
-
-| Experiment | Script |
-|------------|--------|
-| Lorenz-96 | `train_lorenz.py` |
-| Cork EEG | `train_cork.py` |
-| Hippocampus | `train_hippocampus.py` |
-
+ 
 Each experiment automatically
 
 - trains all compared models
